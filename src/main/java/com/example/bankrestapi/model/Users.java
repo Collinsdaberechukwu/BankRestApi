@@ -14,4 +14,7 @@ public class Users {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    private String password;
+    private String username;
+
 }
